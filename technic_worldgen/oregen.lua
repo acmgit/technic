@@ -53,6 +53,19 @@ minetest.register_ore({
 
 minetest.register_ore({
 	ore_type = "scatter",
+	ore = "technic:mineral_uranium",
+	wherein = "default:stone",
+	clust_scarcity = 6*6*6,
+	clust_num_ores = 4,
+	clust_size = 3,
+	y_min = -31000,
+	y_max = -300,
+	noise_params = uranium_params,
+	noise_threshold = uranium_threshold,
+})
+
+minetest.register_ore({
+	ore_type = "scatter",
 	ore = "technic:mineral_chromium",
 	wherein = "default:stone",
 	clust_scarcity = 8*8*8,

@@ -11,8 +11,15 @@ dofile(path.."/battery_box.lua")
 dofile(path.."/solar_array.lua")
 dofile(path.."/nuclear_reactor.lua")
 dofile(path.."/generator.lua")
+dofile(path.."/geothermal.lua")
 
 -- Machines
+dofile(path.."/alloy_furnace.lua")
+dofile(path.."/centrifuge.lua")
+dofile(path.."/compressor.lua")
+dofile(path.."/electric_furnace.lua")
+dofile(path.."/extractor.lua")
+dofile(path.."/grinder.lua")
 dofile(path.."/quarry.lua")
 dofile(path.."/forcefield.lua")
 
