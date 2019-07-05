@@ -9,4 +9,4 @@ minetest.register_craft({
 	}
 })
 
-technic.register_compressor({tier = "HV", demand = {1600, 1200, 800}, speed = 3, upgrade = 2, tube = 2})
+technic.register_compressor({tier = "HV", demand = {1600, 1200, 800}, speed = 3, upgrade = 1, tube = 1})

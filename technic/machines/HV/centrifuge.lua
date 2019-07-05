@@ -11,6 +11,6 @@ technic.register_centrifuge({
 	tier = "HV",
 	demand = { 16000, 14000, 12000 },
 	speed = 3,
-	upgrade = 2,
-	tube = 2,
+	upgrade = 1,
+	tube = 1,
 })

@@ -79,7 +79,7 @@ end
 minetest.register_node("technic:hv_geothermal", {
 	description = S("Geothermal %s Generator"):format("HV"),
 	tiles = {"technic_hv_geothermal_top.png", "technic_machine_bottom.png", "technic_hv_geothermal_side.png",
-	         "technic_hv_geothermal_side.png", "technic_geothermal_hv_side.png", "technic_hv_geothermal_side.png"},
+	         "technic_hv_geothermal_side.png", "technic_hv_geothermal_side.png", "technic_hv_geothermal_side.png"},
 	groups = {snappy=2, choppy=2, oddly_breakable_by_hand=2,
 		technic_machine=1, technic_hv=1},
 	paramtype2 = "facedir",
